@@ -17,10 +17,14 @@ public class BolinhaMovimento : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         rb.linearVelocity = new Vector2(
             movimento.x * velocidade,
             rb.linearVelocity.y
         );
+        
+
+        //rb.AddForce(new Vector2(movimento.x * velocidade, rb.linearVelocity.y));
     }
 
     public void OnMovimento(InputValue valor)
