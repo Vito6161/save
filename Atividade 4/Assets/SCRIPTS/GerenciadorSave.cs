@@ -380,6 +380,8 @@ public class GerenciadorSave : MonoBehaviour
         // CARREGA A FASE
         // -----------------------------------------------------
 
+        
+
         SceneManager.LoadScene(
             dados.nomeFase
         );

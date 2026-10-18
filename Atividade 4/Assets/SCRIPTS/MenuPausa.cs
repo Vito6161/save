@@ -16,7 +16,7 @@ public class MenuPausa : MonoBehaviour
         if (Keyboard.current == null)
             return;
 
-        if (Keyboard.current.pKey.wasPressedThisFrame)
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
             AlternarPausa();
         }
